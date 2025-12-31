@@ -8,11 +8,14 @@ FINAL_DECISION_PROMPT = prompts.FINAL_DECISION_PROMPT
 
 # Gemini LLM
 llm = ChatGoogleGenerativeAI(
-    model="gemini-1.5-pro",
-    temperature=0
+    model="gemini-flash-latest", 
+    temperature=0,
+    max_retries=6,         
+    timeout=60,
 )
 
 def reviewer_credibility_agent(state):
+    # print("STATE",state)
     response = llm.invoke(
         REVIEWER_CREDIBILITY_PROMPT +
         f"\n\nInput:\n{state['reviewer_info']}"
