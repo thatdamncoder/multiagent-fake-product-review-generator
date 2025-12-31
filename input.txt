@@ -1,0 +1,12 @@
+[REVIEWER_INFO]
+Account age: 2 years
+Past reviews: 18
+Verified buyer: YES
+
+[REVIEW_TEXT]
+Great quality! Earbuds fit comfortably and battery lasts over 8 hours.
+Tested with Spotify and YouTube Music. Would buy again.
+
+[PURCHASE_INFO]
+Purchase found: YES
+Review posted 5 days after delivery
