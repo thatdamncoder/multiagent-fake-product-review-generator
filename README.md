@@ -115,9 +115,7 @@ python3 main.py
 
 * **Python 3.9+**
 * **LangGraph** (agent orchestration)
-* **LangChain**
-* **Google Gemini (gemini-1.5-pro / flash)**
-* **python-dotenv**
+* **Google Gemini**
 
 ---
 
@@ -127,17 +125,6 @@ python3 main.py
 * All signals are assumed or provided via input
 * Designed for **real-time moderation systems**
 
----
-
-## 📈 Possible Extensions
-
-* Async execution for lower latency
-* Confidence-weighted voting
-* Structured output validation (Pydantic)
-* Batch review processing
-* Graph visualization (Mermaid)
-
----
 
 ## 👩‍💻 Author
 
