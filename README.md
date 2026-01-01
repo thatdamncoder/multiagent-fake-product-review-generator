@@ -125,7 +125,3 @@ python3 main.py
 * All signals are assumed or provided via input
 * Designed for **real-time moderation systems**
 
-
-## 👩‍💻 Author
-
-Built as a **research-style multi-agent system** to demonstrate explainable AI moderation using modern agent orchestration frameworks.
